@@ -1,0 +1,19 @@
+{
+  "name": "responsive-timeline",
+  "version": "1.0.0",
+  "homepage": "https://github.com/lorenzocadamuro/responsive-timeline",
+  "authors": [
+    "Lorenzo Cadamuro"
+  ],
+  "description": "Create a GreenSock Timeline able to refresh itself on page resizing",
+  "main": "responsive-timeline.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

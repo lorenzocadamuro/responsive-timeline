@@ -1,0 +1,31 @@
+{
+  "name": "responsive-timeline",
+  "version": "1.0.0",
+  "description": "Create a GreenSock Timeline able to refresh itself on page resizing",
+  "main": "responsive-timeline.js",
+  "scripts": {
+    "lint": "eslint responsive-timeline.js",
+    "prebuild": "npm run lint",
+    "build": "uglifyjs responsive-timeline.js > responsive-timeline.min.js"
+  },
+  "keywords": [
+    "scroll",
+    "element",
+    "active",
+    "alive",
+    "visible"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorenzocadamuro/responsive-timeline"
+  },
+  "author": "Lorenzo Cadamuro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lorenzocadamuro/responsive-timeline/issues"
+  },
+  "homepage": "https://github.com/lorenzocadamuro/responsive-timeline",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}
