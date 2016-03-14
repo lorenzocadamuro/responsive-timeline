@@ -9,11 +9,11 @@
     "build": "uglifyjs responsive-timeline.js > responsive-timeline.min.js"
   },
   "keywords": [
-    "scroll",
-    "element",
-    "active",
-    "alive",
-    "visible"
+    "gsap",
+    "timeline",
+    "responsive",
+    "tweenmax",
+    "timelinemax"
   ],
   "repository": {
     "type": "git",
