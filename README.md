@@ -1,6 +1,8 @@
 # Responsive-timeline
 Create a GreenSock Timeline able to refresh itself on page resizing.
 
+It is necessary to include GSAP on your page. [http://greensock.com](http://greensock.com)
+
 ## Install
 
 ```sh
